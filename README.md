@@ -89,13 +89,8 @@ A "Viajeros activos" y "Acumuladores de tarjeta" no les convendría enviarles la
 
 El segmento de "Bajo compromiso" (39% de la base, nada despreciable) es un buen candidato para probar campañas de reactivación de bajo costo antes de tirarle descuentos agresivos que quizás ni necesita para reengancharse.
 
-## Lo que le falta a esto (y me parece justo decirlo)
 
-- Es un dataset académico. No pasó por revisión de un equipo de negocio real, así que trátalo como una demostración de proceso, no como una consultoría terminada
-- Es una foto fija en el tiempo. Ver cómo los clientes migran entre segmentos a lo largo de los meses sería el siguiente paso lógico
-- No probé clustering jerárquico ni HDBSCAN, que podrían encontrar sub-segmentos dentro de "Viajeros activos" (por ejemplo, frecuencia alta vs. media)
-
-## Cómo correrlo tú mismo
+## Cómo correrlo 
 
 ```bash
 git clone https://github.com/RichLD/Clustering-en-la-Segmentaci-n-Estrat-gica-de-Clientes.git
